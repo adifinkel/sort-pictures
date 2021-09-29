@@ -1,0 +1,15 @@
+[
+    "(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})_.*",
+    "(?P<year>\\d{4})-(?P<month>\\d{2})-(?P<day>\\d{2}).*",
+    "(?P<year>\\d{4})_(?P<month>\\d{2})_(?P<day>\\d{2}).*",
+    ".*-(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})-.*",
+    "(?P<year>\\d{4})[^0-9]+",
+    "IMG_(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})_.*",
+    "video-(?P<year>\\d{4})-(?P<month>\\d{2})-(?P<day>\\d{2}).*",
+    "Screenshot_(?P<year>\\d{4})-(?P<month>\\d{2})-(?P<day>\\d{2}).*",
+    "CA(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2}).*",
+    "DEXATIphotoeffects(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2}).*",
+    "PANO_(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})_.*",
+    "VID_(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})_.*",
+    "_(?P<year>\\d{4})(?P<month>\\d{2})(?P<day>\\d{2})_.*"
+]
